@@ -8,9 +8,9 @@ Back-end: MySQL
 
 Dynamic Functionalities:
 
-	User Registration.
+User Registration.
   
-	User Login.
+User Login.
 	
   Shopping Cart.
 	
