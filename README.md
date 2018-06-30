@@ -8,9 +8,16 @@ Back-end: MySQL
 
 Dynamic Functionalities:
 
-	User Registration.
-	User Login.
-	Shopping Cart.
-	Product Display.
-	Payment (Paypal/Debit/Credit Card).
-	Google Map.
+	User Registration.
+  
+	User Login.
+	
+  Shopping Cart.
+	
+  Product Display.
+	
+  Payment (Paypal/Debit/Credit Card).
+	
+  Google Map.
+  
+  User Feedback
