@@ -8,7 +8,7 @@ Back-end: MySQL
 
 Dynamic Functionalities:
 
-User Registration.
+User Registration (with "Google Recaptcha" V2 verification)
   
 User Login.
 	
