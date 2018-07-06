@@ -78,17 +78,17 @@
 //Check for a valid session
 if (isset($_SESSION['email']))
  //get the values from html page
-	$first_name=$_POST['first_name'];
-    $last_name=$_POST['last_name'];
-    $mobile=$_POST['mobile'];
-    $email=$_POST['email'];
-    $password=$_POST['password'];
-    $repassword=$_POST['repassword'];
-	$street_number=$_POST['street_number'];
-	$street_name=$_POST['street_name'];
-	$suburb=$_POST['suburb'];
-	$postcode=$_POST['postcode'];
-	$state_name=$_POST['state_name'];
+    $first_name=trim($_POST['first_name']);
+    $last_name=trim($_POST['last_name']);
+    $mobile=trim($_POST['mobile']);
+    $email=trim($_POST['email']);
+    $password=trim($_POST['password']);
+    $repassword=trim($_POST['repassword']);
+    $street_number=$_POST['street_number'];
+    $street_name=$_POST['street_name'];
+    $suburb=$_POST['suburb'];
+    $postcode=$_POST['postcode'];
+    $state_name=$_POST['state_name'];
 	
 	// field validation
 	if (   ($first_name == "") 
