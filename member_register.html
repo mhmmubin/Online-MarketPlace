@@ -128,7 +128,14 @@
       <td ><input type="submit" name="Submit" value="Create My Account"></td>
     </tr>
 </table>
+		
+<?php
+require_once('recaptchalib.php');
+$publickey = "6LdZcGIUAAAAACzBggx7g4XMF86oGu5wbV_ie0kd"; 
 
+?>
+
+<div class="g-recaptcha" data-sitekey="6LdZcGIUAAAAACzBggx7g4XMF86oGu5wbV_ie0kd"></div>
 </form>
 		
 
