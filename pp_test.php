@@ -36,7 +36,7 @@ switch ($_GET['action']) {
       break;
       
    case 'cancel':       // Order was canceled
-		
+	
       echo "<html><head><title>Canceled</title></head><body><h3>The order was canceled.</h3>";
       echo "</body></html>";
       
