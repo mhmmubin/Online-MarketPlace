@@ -14,7 +14,7 @@ if (empty($_GET['action'])) $_GET['action'] = 'process';
 
 switch ($_GET['action']) {
     
-   case 'process':      // Process and order...
+   case 'process':      // Process and order
       
       $p->add_field('business', 'mhm.mubin@gmail.com');
       $p->add_field('return', $this_script.'?action=success');
@@ -24,7 +24,7 @@ switch ($_GET['action']) {
       $p->add_field('amount', '10.99');
 
       $p->submit_paypal_post(); // submit the fields to paypal
-      //$p->dump_fields();      // for debugging, output a table of all the fields
+ 
       break;
       
    case 'success':      // Order was successful
@@ -47,7 +47,7 @@ switch ($_GET['action']) {
       if ($p->validate_ipn()) {
          
          $subject = 'Instant Payment Notification - Recieved Payment';
-         $to = 'mhm.mubin@gmail.com';    //  your email
+         $to = 'mhm.mubin@gmail.com';   
          $body =  "An instant payment notification was successfully recieved\n";
          $body .= "from ".$p->ipn_data['payer_email']." on ".date('m/d/Y');
          $body .= " at ".date('g:i A')."\n\nDetails:\n";
