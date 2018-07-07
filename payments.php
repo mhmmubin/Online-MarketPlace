@@ -72,7 +72,7 @@
 				</ul>
             </div>  
          </nav>
-    
+   
 <div class = "payment">	
    <h1>Payment Details</h1>
 <p>Please enter your credit card and shipping details</p>
