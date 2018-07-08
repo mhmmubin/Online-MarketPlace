@@ -7,7 +7,7 @@ Front-end: HTML, CSS, PHP, JavaScript
 
 Back-end: MySQL
 
-##### Dynamic Functionalities:
+#### Dynamic Functionalities:
 
 User Registration (with "Google Recaptcha" V2 verification)
   
