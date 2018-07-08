@@ -2,23 +2,23 @@
 ## Developement Methodology:
  Agile methodologies has used to develope this site.
  
-###
+### Language:
 Front-end: HTML, CSS, PHP, JavaScript
 
 Back-end: MySQL
 
-Dynamic Functionalities:
+##### Dynamic Functionalities:
 
 User Registration (with "Google Recaptcha" V2 verification)
   
 User Login.
 	
-  Shopping Cart.
+Shopping Cart.
 	
-  Product Display.
+Product Display.
 	
-  Payment (Paypal/Debit/Credit Card).
+Payment (Paypal/Debit/Credit Card).
 	
-  Google Map.
+Google Map.
   
-  User Feedback
+User Feedback
