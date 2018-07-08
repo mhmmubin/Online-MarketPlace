@@ -1,7 +1,8 @@
 # Online-MarketPlace
 ## Developement Methodology:
-Development methodology: Agile
-
+ Agile methodologies has used to develope this site.
+ 
+###
 Front-end: HTML, CSS, PHP, JavaScript
 
 Back-end: MySQL
