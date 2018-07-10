@@ -33,46 +33,7 @@
 							<span class="icon-bar"></span>
 					</button>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="nav navbar-nav">
-                      <li><a  href="home.html">Home</a></li>
-				 
-                      <li class = "dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
-						<ul class="dropdown-menu" >
-							<li><a href="founder.html">Who Dreamt</a></li>
-							<li><a href="company.html">Company Profile</a></li>
-					    </ul>
-		             </li>
-					  
-                      <li class = "dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">Visit Our Shop<span class="caret"></span></a>
-						<ul class="dropdown-menu" >
-							<li><a href="bedroom_products.php">Bedroom</a></li>
-							<li><a href="living_products.php">Living</a></li>
-							<li><a href="kids_products.php">Kids</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-					    </ul>
-		            </li>
-					
-                      <li><a href="contact.html">Contact</a></li>
-					  
-					  <li><a class = "animated shake" href="events.html">Events</a></li>
-                 </ul>
-				 
-				 <ul class="nav navbar-nav navbar-right">
-				   <li><a href="view_cart.php"><img class = "cart_image" src= "images/cart.jpg"/>Cart</a></li>
-				   <li><a href="member_register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-				   <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                 </ul>
-             </div>
-				<ul class="nav navbar-nav navbar-right">
-					<li><input type="text" class="form-control" placeholder="I am shopping for..." name="search"></li>
-					<li><button type="submit" class="form-control">Search</button></li>
-				</ul>
-            </div>  
-         </nav>
-       
+     
    <?php
 //start the new session
 session_start();
@@ -88,7 +49,7 @@ else
     //connect to server and select database
     require_once('con_furnituredb.php');
     //create and issue the query
-    //$password = md5($password);
+    $password = md5($password);
     $query = "SELECT first_name, last_name, mobile, password, email, street_number, street_name, suburb, postcode, state_name
 	from customers WHERE (email = '$email') AND (password = '$password')";
     $result = mysqli_query($link, $query) or die("Invalid Customer ID or Password");
@@ -136,8 +97,4 @@ else
     }
     }
     ?>   
-       
-	  
-	  
-     </body>
-</html>
+  
